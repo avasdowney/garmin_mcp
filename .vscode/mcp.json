@@ -1,0 +1,16 @@
+{
+	"servers": {
+		// "local-garmin-mcp": {
+		// 	"url": "http://localhost:5000",
+		// 	"type": "http"
+		// }
+		"stdio-garmin-mcp": {
+			"command": "python",
+			"args": [
+				"garmin_mcp_server.py"
+			],
+			"transport": "stdio",
+		}
+	},
+	"inputs": []
+}
